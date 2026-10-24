@@ -17,4 +17,4 @@ subnet3_name       = "cmtr-nl4ibdbd-01-subnet-public-c"
 subnet3_cidr       = "10.10.5.0/24"
 
 internet_gateway = "cmtr-nl4ibdbd-01-igw"
-routing_table    = "cmtr-nl4ibdbd-01-rt-public"
+routing_table    = "cmtr-nl4ibdbd-01-rt"
