@@ -1,0 +1,20 @@
+
+aws_region = "us-east-1"
+
+vpc_name = "cmtr-nl4ibdbd-01-vpc"
+vpc_cidr = "10.10.0.0/16"
+
+availability_zone1 = "us-east-1a"
+subnet1_name       = "cmtr-nl4ibdbd-01-subnet-public-a"
+subnet1_cidr       = "10.10.1.0/24"
+
+availability_zone2 = "us-east-1b"
+subnet2_name       = "cmtr-nl4ibdbd-01-subnet-public-b"
+subnet2_cidr       = "10.10.3.0/24"
+
+availability_zone3 = "us-east-1c"
+subnet3_name       = "cmtr-nl4ibdbd-01-subnet-public-c"
+subnet3_cidr       = "10.10.5.0/24"
+
+internet_gateway = "cmtr-nl4ibdbd-01-igw"
+routing_table    = "cmtr-nl4ibdbd-01-rt-public"
